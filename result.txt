@@ -1,0 +1,79 @@
+src
+├─App.test.tsx
+├─App.tsx
+├─index.css
+├─index.tsx
+├─logo.svg
+├─react-app-env.d.ts
+├─serviceWorker.ts
+├─setupProxy.js
+├─setupTests.ts
+├─utils
+|   ├─Event.ts
+|   ├─editorTool.tsx
+|   ├─error.ts
+|   ├─factory.ts
+|   ├─navigator.ts
+|   ├─renderLayout.ts
+|   ├─renderRoutes.tsx
+|   ├─schemaRender.tsx
+|   ├─simpleUtils.ts
+|   ├─Editor
+|   |   ├─BaseEditor.tsx
+|   |   ├─ButtonEditor.tsx
+|   |   ├─TabsEditor.tsx
+|   |   └index.ts
+├─render
+|   ├─pages
+|   |   ├─user
+|   |   |  ├─login
+|   |   |  |   ├─index.less
+|   |   |  |   └index.tsx
+|   |   ├─main
+|   |   |  ├─index.less
+|   |   |  └index.tsx
+|   |   ├─error
+|   |   |   ├─500
+|   |   |   |  └index.tsx
+|   |   |   ├─404
+|   |   |   |  └index.tsx
+|   |   ├─create
+|   |   |   ├─index.less
+|   |   |   └index.tsx
+|   ├─components
+|   |     ├─Button.tsx
+|   |     ├─Tabs.tsx
+|   |     └index.tsx
+├─locale
+├─interface
+|     ├─fatory.ts
+|     ├─index.ts
+|     └schema.ts
+├─config
+|   └routes.ts
+├─apis
+|  ├─configuration.ts
+|  ├─utils
+|  |   ├─redis.ts
+|  |   └response.ts
+|  ├─render
+|  |   └[...index].ts
+|  ├─middleware
+|  |     └handleError.ts
+|  ├─mapper
+|  |   └UserMapper.ts
+|  ├─lambda
+|  |   ├─index.ts
+|  |   └user.ts
+|  ├─interface
+|  |     ├─interactive.base.ts
+|  |     ├─res.ts
+|  |     └user.ts
+|  ├─hook
+|  |  └useMethod.ts
+|  ├─exception
+|  |     └exception.ts
+|  ├─entity
+|  |   └user.ts
+|  ├─config
+|  |   └config.default.ts

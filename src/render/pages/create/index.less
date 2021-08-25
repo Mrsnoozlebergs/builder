@@ -1,0 +1,82 @@
+.create {
+  &-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    &-container {
+      display: flex;
+      flex-direction: row;
+    }
+    &-title {
+      color: #fff;
+      font-size: 24px;
+    }
+    &-saving {
+      margin-left: 10px;
+      &-text {
+        color: #fff;
+        margin-right: 10px;
+      }
+      &-icon {
+        color: #fff;
+      }
+    }
+    &-button {
+      display: flex;
+      width: 480px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+    }
+  }
+  &-preview {
+    &-tool {
+      position: fixed;
+      bottom: 50px;
+      right: 50px;
+      font-size: 30px;
+    }
+    &-button {
+      display: flex;
+      width: 260px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      z-index: 1001;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.edit-container {
+  background-color: #fff;
+  height: 100%;
+}
+
+.cList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  &-component {
+    cursor: pointer;
+    background: #f6f7fb;
+    border: 1px solid #ccc;
+    padding: 4px 8px;
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    flex: 0 0 49%;
+    font-size: 12px;
+    white-space: nowrap;
+    &-selected {
+      border: 2px solid #4285f4;
+    }
+  }
+  &-btn {
+    position: absolute !important;
+    bottom: 20px;
+    right: 50px;
+  }
+}

@@ -1,0 +1,72 @@
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  &-container {
+    position: relative;
+    height: 300px;
+    margin: 0 auto;
+  }
+  &-margin {
+    background-color: #F9CC9D;
+    width: 300px;
+    height: 300px;
+  }
+  &-border {
+    background-color: #FDDD9B;
+    width: 240px;
+    height: 240px;
+  }
+  &-padding {
+    background-color: #C2CF8A;
+    width: 150px;
+    height: 150px;
+  }
+  &-self {
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+  }
+  &-label {
+    margin: 5px 0 0 5px;
+    font-size: 12px;
+  }
+  &-x {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  &-left, &-right, &-top, &-bottom {
+    position: absolute;
+    border: none;
+    width: 20px;
+    // border-bottom: 1px solid #000;
+    outline: none;
+    background-color: transparent;
+    font-size: 12px;
+    z-index: 1;
+    text-align: center;
+  }
+  &-left, &-right {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  &-top, &-bottom {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &-left {
+    left: 5px;
+  }
+  &-right {
+    right: 5px;
+  }
+  &-top {
+    top: 5px;
+  }
+  &-bottom {
+    bottom: 5px;
+  }
+}
